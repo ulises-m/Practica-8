@@ -1,0 +1,32 @@
+<!DOCTYPE  html>
+<html lang="es">
+<head>
+<title>Catalogo de productos</title>
+</head>
+<body>
+<div style="background-color:yellow;color:green">
+<h1><center>Catalogo de Productos</center></h1>
+</div>
+<!-- Formulario  -->
+<form  action="guardar.php" method="POST">
+<fieldset>
+<legend>Capturade Datos de Producto</legend>
+<label for="nombre">Nombre</label></br>
+<input type="text" name="nombre" id="nombre" maxlenght="10" size="20"> </br>
+<label for="clave">Clave</label></br>
+<input type="text" name="clave" id="clave" maxlenght="10" size="20"></br>
+</br>
+<label for="precio">Precio</label></br>
+<input type="text" name="precio" id="precio" maxlenght="10" size="20"></br>
+
+<label for="descripcion">Decripcion</label></br>
+<textarea name="descripcion" id="descripcion" rows="10" cols="60">
+
+</textarea>	
+</fieldset>
+<br>
+<input type="submit" value="Enviar" onclick="alert('Producto Guardado!')">
+<input type="reset" value="Borrar"> 
+</form>
+</body>
+</html>
